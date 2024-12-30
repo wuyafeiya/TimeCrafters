@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input{
+    @apply w-full placeholder:text-sm placeholder:text-[#6B7280]  focus:outline-none focus:ring-0 focus:border-none;
+  }
+}
